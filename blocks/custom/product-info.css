@@ -1,0 +1,138 @@
+
+.product-header {
+    padding-top: 150px;
+    display: flex;
+    justify-content: center; /* Centers the two main divs horizontally */
+    align-items: center; /* Centers the two main divs vertically */
+    width: 100%;
+}
+
+.product-info-wrapper {
+}
+
+
+.product-header h2{
+    font-size: xx-large;
+
+}
+
+.product-info > div > div {
+    display: flex;
+}
+
+.product-info {
+    margin-bottom: 100px;
+}
+
+.product-info h3 {
+    background-color: rgb(192, 2, 2); /* Set the background color to red */
+    color: white; /* Set the text color to white */
+    padding: 10px; /* Add some padding to give space inside the box */
+    border-radius: 10px; /* Round the corners of the box */
+    display: inline-block; /* Make the box size fit the content */
+    font-size: medium;
+}
+
+.product-info h2 {
+    color: rgb(192, 2, 2);
+    font-family: lato;
+    font-size: xx-large;
+}
+
+.product-info > div:first-child > div p {
+    padding-top: 18px;
+    padding-left: 11px;
+    color: gray;
+    text-decoration: line-through;
+}
+
+
+.product-info > div:nth-child(2) > div p {
+    background-color: rgb(206, 206, 206); /* Set the background color to red */
+    color: rgb(0, 0, 0); /* Set the text color to white */
+    padding: 10px; /* Add some padding to give space inside the box */
+    border-radius: 10px; /* Round the corners of the box */
+    display: inline-block; /* Make the box size fit the content */
+    font-size: medium;
+    margin-left: 10px;
+}
+
+
+.product-info > div:nth-child(4) > div img {
+    width: 25px;
+}
+
+
+.product-info > div:nth-child(4) > div p {
+    text-decoration: underline;
+}
+
+
+.product-info > div:nth-child(5) > div p {
+    font-family: lato-bold;
+    font-size: x-large;
+}
+
+.product-info > div:nth-child(6) {
+    display: flex;
+    gap: 10px;
+}
+
+.product-info > div:nth-child(6) > div {
+    display: flex; /* Change from block to flex */
+    flex-direction: column; /* Ensure content stacks vertically */
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+    padding: 10px;
+    border: solid 1px rgb(184, 184, 184);
+    border-radius: 5px;
+    width: 150px;
+    height: 150px; /* Set a fixed height if needed for vertical centering */
+}
+
+.product-info > div:nth-child(6) > div img {
+    width: 90px;
+}
+
+.product-info > div:nth-child(6) > div h5 {
+    font-size: medium;
+}
+
+.product-info > div:nth-child(6) > div p {
+    font-size: small;
+}
+
+.product-info > div:nth-child(7) > div{
+    display: block;
+}
+
+.product-info > div:nth-child(7) > div h5{
+    font-family: lato;
+    text-decoration: underline;
+}
+
+.product-info > div:nth-child(7) > div {
+    border: none; /* Remove the default border */
+    box-shadow: 3px 3px 5px rgba(128, 128, 128, 0.3); /* Add shadow to bottom, left, and right */
+    padding: 10px; /* Optional: add padding to create space inside the box */
+}
+
+.product-info > div:nth-child(8) {
+    display: flex;
+    gap: 20px;
+}
+
+.product-info > div:nth-child(8) > div:last-child {
+    border: 1px solid black;
+    height: 40px;
+    width: 40px;
+}
+
+
+.product-info > div:nth-child(8) .button-container a.button:any-link  {
+    background-color: green;
+    border-radius: 0px;
+    padding: 15px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
