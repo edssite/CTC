@@ -7,7 +7,10 @@
     height: 100vh; /* Optional: ensures the .main container takes up the full height of the viewport */
 }
 .product-wrapper {
+}
 
+.product {
+  padding-bottom: 250px;
 }
 
 .product-info-wrapper {
@@ -16,7 +19,7 @@
 .product-carousel-wrapper {
     position: relative;
     overflow: hidden;
-    max-width: 600px; /* Set a maximum width for the carousel */
+    max-width: 950px; /* Set a maximum width for the carousel */
     margin: 2 auto; /* Center the carousel wrapper */
   }
   

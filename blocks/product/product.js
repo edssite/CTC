@@ -12,7 +12,7 @@ export default function decorate(block) {
             console.log("HERE-------", h2Element)
             // If there's an h2, keep the parent div in the block, but remove the h2 itself
             block.append(child);
-            h2Element.remove(); // Remove the h2 to prevent duplication
+            //h2Element.remove(); // Remove the h2 to prevent duplication
         } else {
             // Append other elements (e.g., images) to the carousel
             productContainer.append(child);

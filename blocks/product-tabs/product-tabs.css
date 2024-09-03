@@ -1,0 +1,87 @@
+.product-tabs-container {
+    padding-bottom: 40px;
+}
+
+.product-tabs {
+    padding-left: 180px;
+    padding-top: 20px
+}
+
+.product-tabs-wrapper {
+}
+
+.tab-buttons-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 2px;
+    border-bottom: 1px solid gray;
+}
+
+.tab-button {
+    padding: 0px 15px;
+    margin-right: 5px;
+    cursor: pointer;
+    border: none;
+    font-size: 20px;
+    background-color: white;
+    color: black;
+}
+
+.tab-button.active {
+    background-color: #ffffff;
+    font-weight: bold;
+    color: black;
+    text-decoration: underline;
+}
+
+.tab-button:hover {
+    padding: 0px 15px;
+    margin-right: 5px;
+    cursor: pointer;
+    border: none;
+    font-size: 20px;
+    background-color: white;
+    color: black;
+}
+
+.tab-content-wrapper {
+    font-size: small;
+}
+
+
+.tab-content-wrapper  > div:first-child ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Creates 3 equal columns */
+    gap: 10px; /* Optional: adds space between the columns */
+    list-style-position: inside; /* Ensures bullets are inside the columns */
+    padding: 0;
+    margin: 0;
+}
+
+.tab-content-wrapper > div:first-child ul li {
+    margin-bottom: 10px; /* Adds some space between list items */
+}
+
+.tab-content {
+    display: none; /* Hidden by default */
+}
+
+
+.tab-content-wrapper > div:last-child ul {
+    list-style-type: none; /* Removes the bullet points */
+    padding: 0;
+    margin: 0;
+}
+
+.tab-content-wrapper > div:last-child ul li {
+    padding: 10px; /* Adds padding inside each list item */
+    background-color: white; /* Default background color */
+}
+
+.tab-content-wrapper > div:last-child ul li:nth-child(odd) {
+    background-color: gainsboro; /* Gray background for odd rows */
+}
+
+.tab-content-wrapper > div:last-child ul li:nth-child(even) {
+    background-color: white; /* White background for even rows */
+}

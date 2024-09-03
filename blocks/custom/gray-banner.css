@@ -1,0 +1,46 @@
+.gray-banner-container {
+    background-color: gainsboro;
+    display: flex;
+    justify-content: center; /* Centers items horizontally */
+    align-items: center;    /* Centers items vertically */
+    text-align: center;     /* Centers text inside the items if needed */
+    height: 100%;           /* Ensure the container has a height if needed */
+}
+
+.gray-banner h2 {
+    font-size: x-large;
+}
+
+.gray-banner p {
+    font-size: small;
+}
+
+.gray-banner a.button:any-link {
+    display: inline-block;
+    color: white;
+    background-color: black;
+    border-radius: 0px;
+    padding: 10px 20px; /* Padding inside the button */
+    font-weight: bold; /* Make the text bold */
+    font-size: 16px; /* Font size */
+    text-align: center; /* Center the text */
+    text-decoration: none; /* Remove underline from links */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.gray-banner a.button:any-link:hover {
+    display: inline-block;
+    color: white;
+    background-color: rgb(105, 105, 105);
+    border-radius: 0px;
+    padding: 10px 20px; /* Padding inside the button */
+    font-weight: bold; /* Make the text bold */
+    font-size: 16px; /* Font size */
+    text-align: center; /* Center the text */
+    text-decoration: none; /* Remove underline from links */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+
