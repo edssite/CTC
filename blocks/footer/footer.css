@@ -1,6 +1,7 @@
 footer {
-  background-color: var(--light-color);
+  background-color: rgb(41, 41, 41);
   font-size: var(--body-font-size-xs);
+  color: white;
 }
 
 footer .footer > div {
@@ -17,4 +18,78 @@ footer .footer p {
   footer .footer > div {
     padding: 40px 32px 24px;
   }
+}
+
+.footer-links {
+  display: flex;
+  gap: 40px
+}
+
+.footer-links h2 {
+  font-size: large;
+}
+
+.footer-links-container {
+  display: flex;
+}
+
+.footer-links {
+  padding-right: 20px;
+}
+.footer-cta {
+  border-left: rgb(183, 182, 182) 1px solid;
+  padding-left: 20px;
+}
+.footer-cta > div:last-child {
+  display: flex;
+}
+
+.footer-cta > div:last-child > div:first-child img {
+  width: 150px;
+  height: 150px;
+  padding: 15px;
+}
+
+.footer-cta > div:last-child > div:last-child img {
+  width: 140px;
+  height: 100%;
+  padding: 10px;
+}
+
+.footer-cta .button-container a.button:any-link {
+  background-color: rgb(63, 63, 63);
+  border-color: rgb(183, 182, 182);
+  border-radius: 0px;
+  padding: 7px;
+}
+
+.footer-socials {
+  display: flex;
+  gap: 10px;
+  padding-bottom: 20px;
+  border-bottom: rgb(183, 182, 182) 1px solid;
+}
+
+.footer-socials img {
+  width: 30px;
+  height: 100%;
+}
+
+.footer-bottom {
+  display: flex;
+  gap: 500px;
+}
+
+
+.footer-bottom p {
+  font-size: x-small;
+  color: rgb(183, 182, 182);
+  padding: 20px;
+}
+
+
+.footer-bottom img {
+  width: 200px;
+  height: 100%;
+  padding: 5px;
 }
