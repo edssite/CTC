@@ -1,0 +1,46 @@
+.review {
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 0;
+  }
+  
+  .review-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1px;
+  }
+  
+  .review-label {
+    flex: 1;
+  }
+  
+  .review-bar {
+    flex: 4;
+    background-color: #ffffff;
+    border-radius: 5px;
+    border: 1px solid rgb(95, 95, 95);
+    overflow: hidden;
+    margin: 0 5px;
+  }
+  
+  .progress {
+    height: 10px;
+    background-color: #ffae00; /* Yellow color for the progress bar */
+    border-radius: 5px;
+  }
+  
+  .review-number {
+    flex: 1;
+    text-align: right;
+
+  }
+  
+
+  .review-container > .default-content-wrapper p {
+    font-size: xx-large;
+  }
+
+  .review-container {
+    padding-bottom: 30px;
+  }
+  

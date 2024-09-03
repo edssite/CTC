@@ -10,10 +10,18 @@
 .cards > ul > li {
   border: 1px solid #dadada;
   background-color: var(--background-color);
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .cards .cards-card-body {
   margin: 16px;
+}
+
+
+.star-rating {
+  color: rgb(255, 170, 0); /* Make the stars yellow */
+  font-size: 1.5em; /* Adjust the size of the stars */
+  margin-top: 8px; /* Space between the paragraph and stars */
 }
 
 .cards .cards-card-image {
@@ -24,4 +32,9 @@
   width: 100%;
   aspect-ratio: 4 / 3;
   object-fit: cover;
+}
+
+.cards-container {
+  padding-bottom: 30px;
+  padding-left: 150px;
 }
