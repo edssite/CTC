@@ -5,6 +5,8 @@
     align-items: center;    /* Centers items vertically */
     text-align: center;     /* Centers text inside the items if needed */
     height: 100%;           /* Ensure the container has a height if needed */
+    padding-bottom: 50px;
+    padding-top: 50px;
 }
 
 .gray-banner h2 {

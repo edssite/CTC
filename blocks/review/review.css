@@ -40,7 +40,13 @@
     font-size: xx-large;
   }
 
+  .review-container > .default-content-wrapper p:last-child {
+    font-size: large;
+  }
+
   .review-container {
     padding-bottom: 30px;
+    width: 30%;
+    padding-left: 100px;
   }
   
