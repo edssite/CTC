@@ -9,6 +9,11 @@
 .product-wrapper {
 }
 
+.product-container {
+  height: 50%;
+
+}
+
 .product {
   padding-bottom: 250px;
 }

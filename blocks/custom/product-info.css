@@ -7,13 +7,12 @@
     width: 100%;
 }
 
-.product-info-wrapper {
-}
-
-
 .product-header h2{
     font-size: xx-large;
+}
 
+.product-details-h2-wrapper {
+    width: 60%;
 }
 
 .product-info > div > div {
@@ -167,9 +166,13 @@
 
 .product-details-h2 {
     width: 100%;
-    padding-left: 200px;
+    padding-left: 150px;
 }
 
 .product-details-h2 p{
     font-size: small;
+}
+
+.bread-crumb {
+    padding-top: 100px;
 }
